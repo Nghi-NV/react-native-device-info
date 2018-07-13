@@ -12,7 +12,7 @@ import java.util.List;
 
 public class RNDeviceInfo implements ReactPackage {
 
-  @Override
+  //@Override
   public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
     List<NativeModule> modules = new ArrayList<>();
 
@@ -26,7 +26,7 @@ public class RNDeviceInfo implements ReactPackage {
     return Collections.emptyList();
   }
 
-  @Override
+  //@Override
   public List<ViewManager> createViewManagers(
       ReactApplicationContext reactContext) {
     return Collections.emptyList();
